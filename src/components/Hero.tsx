@@ -11,19 +11,19 @@ const Hero = () => {
             Hi, my name is
           </p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-lightestSlate mb-4 animate-fade-in-down opacity-0" style={{ animationDelay: "0.4s" }}>
-            Jane Doe.
+            SRISHTI GOYAL
           </h1>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-slate mb-6 animate-fade-in-down opacity-0" style={{ animationDelay: "0.6s" }}>
-            I build things for the web.
-          </h2>
+          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-lightestSlate mb-6 animate-fade-in-down opacity-0" style={{ animationDelay: "0.6s" }}>
+            PUNYA SHARMA
+          </h1>
           <p className="text-lg text-slate max-w-xl mb-8 animate-fade-in-down opacity-0" style={{ animationDelay: "0.8s" }}>
-            I'm a software developer specializing in building exceptional digital experiences. 
-            Currently, I'm focused on creating accessible, human-centered products.
+            We're software developers specializing in building exceptional digital experiences. 
+            Currently, we're focused on creating accessible, human-centered products.
           </p>
           <div className="animate-fade-in-down opacity-0" style={{ animationDelay: "1s" }}>
             <a href="#projects">
               <Button variant="outline" className="btn-primary group">
-                View My Work
+                View Our Work
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </a>

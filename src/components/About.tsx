@@ -1,6 +1,7 @@
 
 import { skills } from "@/assets/data";
 import { Progress } from "@/components/ui/progress";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
   return (
@@ -8,7 +9,40 @@ const About = () => {
       <div className="section-container">
         <h2 className="section-title text-white">About Me</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 mb-16">
+          {/* Creators section */}
+          <div className="flex flex-col items-center">
+            <div className="relative mb-4">
+              <div className="w-48 h-48 overflow-hidden rounded-lg">
+                <img 
+                  src="/lovable-uploads/8238e98f-6492-4cff-aba1-440fbcc9464d.png" 
+                  alt="Srishti Goyal" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute inset-0 border-2 border-accent rounded-lg transform translate-x-4 translate-y-4 -z-10"></div>
+            </div>
+            <h3 className="text-xl font-bold text-white mt-4 mb-1">SRISHTI GOYAL</h3>
+            <p className="text-lightSlate">Creator of this app</p>
+          </div>
+          
+          <div className="flex flex-col items-center">
+            <div className="relative mb-4">
+              <div className="w-48 h-48 overflow-hidden rounded-lg">
+                <img 
+                  src="/lovable-uploads/6ad50058-b074-42a4-a6d0-a21dd9abf92a.png" 
+                  alt="Punya Sharma" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute inset-0 border-2 border-accent rounded-lg transform translate-x-4 translate-y-4 -z-10"></div>
+            </div>
+            <h3 className="text-xl font-bold text-white mt-4 mb-1">PUNYA SHARMA</h3>
+            <p className="text-lightSlate">Creator of this app</p>
+          </div>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Photo */}
           <div className="md:col-span-1">
             <div className="relative">
@@ -49,7 +83,7 @@ const About = () => {
                     <span className="text-lightestSlate">{skill.name}</span>
                     <span className="text-accent">{skill.level}%</span>
                   </div>
-                  <Progress value={skill.level} className="h-2 bg-lightestNavy" indicatorClassName="bg-accent" />
+                  <Progress value={skill.level} className="h-2 bg-lightestNavy" />
                 </div>
               ))}
             </div>

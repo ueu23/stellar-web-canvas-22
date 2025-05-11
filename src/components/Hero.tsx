@@ -10,20 +10,17 @@ const Hero = () => {
           <p className="text-accent mb-5 font-medium animate-fade-in-down opacity-0" style={{ animationDelay: "0.2s" }}>
             Hi, my name is
           </p>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-lightestSlate mb-4 animate-fade-in-down opacity-0" style={{ animationDelay: "0.4s" }}>
-            SRISHTI GOYAL
-          </h1>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-lightestSlate mb-6 animate-fade-in-down opacity-0" style={{ animationDelay: "0.6s" }}>
             PUNYA SHARMA
           </h1>
           <p className="text-lg text-slate max-w-xl mb-8 animate-fade-in-down opacity-0" style={{ animationDelay: "0.8s" }}>
-            We're software developers specializing in building exceptional digital experiences. 
-            Currently, we're focused on creating accessible, human-centered products.
+            I'm a software developer specializing in building exceptional digital experiences. 
+            Currently, I'm focused on creating accessible, human-centered products.
           </p>
           <div className="animate-fade-in-down opacity-0" style={{ animationDelay: "1s" }}>
             <a href="#projects">
               <Button variant="outline" className="btn-primary group">
-                View Our Work
+                View My Work
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </a>
